@@ -9,6 +9,7 @@ interface IShape {
   x: number;
   y: number;
 }
+
 function App() {
   const [points, setPoints] = useState<IShape[]>([]);
   const [redoPoint, setRedoPoints] = useState<IShape[]>([]);
